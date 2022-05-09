@@ -18,11 +18,9 @@ public class Bank {
         a2.add(800);
         a3.add(400);
 
+
         Account []accounts = {a1, a2, a3};
 
-
-
-        System.out.println(a3.deposit(300));
         for (int i = 0;  i < accounts.length; ++i) {
             System.out.println(accounts[i]);
         }
